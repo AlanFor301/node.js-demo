@@ -3,7 +3,7 @@ public class FinalExample{
     final int digit = 10;
     try{
       //digit += 1;
-      System.out.println("final type cannot be changed; otherwise it will occour compiling error.");
+      System.out.println("final type cannot be changed; \notherwise it will occour compiling error.");
     }catch(Exception e){
       System.out.println(e);
     }finally{
